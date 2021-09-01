@@ -1,0 +1,21 @@
+# macOS filesystem
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.sublime/
+
+# Generated folders
+.next/
+node_modules/
+.rpt2_cache
+out/
+
+# Generated files
+package-lock.json
+npm-debug
+yarn.lock
+yarn-error.log
+
+.vercel
+

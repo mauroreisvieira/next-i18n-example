@@ -1,0 +1,53 @@
+{
+	"name": "next-i18n-example",
+	"version": "0.1.0",
+	"author": "Marcel Zurreck",
+	"scripts": {
+		"dev": "next",
+		"start": "next start",
+		"build": "next build && next export",
+		"lint:js": "eslint . --ext .js,.jsx,.ts,.tsx --quiet",
+		"fix:js": "eslint . --fix --ext .js,.jsx,.ts,.tsx --quiet"
+	},
+	"dependencies": {
+		"i18next": "^20.3.2",
+		"i18next-browser-languagedetector": "^6.1.2",
+		"next": "^11.0.1",
+		"postcss": "^8.3.5",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"classnames": "^2.3.1",
+		"react-slick": "^0.28.1"
+	},
+	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^4.0.3",
+		"@tailwindcss/forms": "^0.3.3",
+		"@types/classnames": "^2.3.0",
+		"@types/node": "^16.0.0",
+		"@types/react": "^17.0.13",
+		"@types/react-dom": "^17.0.8",
+		"@types/react-slick": "^0.23.4",
+		"@typescript-eslint/eslint-plugin": "^4.28.2",
+		"@typescript-eslint/parser": "^4.28.2",
+		"autoprefixer": "^10.2.6",
+		"eslint": "^7.30.0",
+		"eslint-config-next": "^11.0.1",
+		"eslint-config-prettier": "8.3.0",
+		"eslint-config-standard": "^16.0.3",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^3.4.0",
+		"eslint-plugin-promise": "^5.1.0",
+		"eslint-plugin-react": "^7.24.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"eslint-plugin-standard": "^5.0.0",
+		"postcss": "^8.3.5",
+		"postcss-preset-env": "^6.7.0",
+		"prettier": "2.3.2",
+		"prettier-eslint": "12.0.0",
+		"prettier-eslint-cli": "5.0.1",
+		"pretty-quick": "^3.1.1",
+		"tailwindcss": "^2.2.4",
+		"typescript": "4.3.5"
+	}
+}
