@@ -5,5 +5,5 @@ module.exports = {
         url: 'https://website.com/pt/',
         image: '',
     },
-    home_title: 'Página Inicial',
+    home_title: 'Data to enrich your online business',
 };

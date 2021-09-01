@@ -26,7 +26,7 @@ export const Button = forwardRef(
                 {...otherProps}
                 ref={ref}
                 href={href}
-                className={classNames('button' className)}>
+                className={classNames('w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md', className)}>
                 { children }
             </TAG>
         );
