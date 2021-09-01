@@ -11,7 +11,9 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({
     className,
 }: HeaderProps): React.ReactElement => (
-    <header className={classNames('w-full mb-4', className)}>
-        <Nav />
+    <header className={classNames('bg-gray-800', className)}>
+        <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+            <Nav />
+        </div>
     </header>
 );

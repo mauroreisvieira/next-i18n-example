@@ -1,4 +1,4 @@
-    import * as React from "react";
+import * as React from "react";
 import { GetStaticPathsResult, GetStaticPropsResult } from "next";
 import { Page } from "@/layout/Page";
 import { i18next, getAllLanguageSlugs, getLanguage } from "@/lib/lang";
